@@ -54,12 +54,15 @@ After the windows with vehicles were identified for each frame, duplicates and f
 Here's an example result showing the heatmap from a test image going through the pipeline, the result of the threshold applied to remove false positives (before applying `scipy.ndimage.measurements.label()`) and the bounding boxes then overlaid on the last frame of video:
 
 Here is the heatmap for the test image:
+
 ![alt text][image5]
 
 Here is the thresholded heatmap:
+
 ![alt text][image6]
 
 Here the resulting bounding boxes are drawn onto the input test image:
+
 ![alt text][image7]
 
 ---
